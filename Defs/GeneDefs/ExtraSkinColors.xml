@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="GeneSkinColorOverride">
+    	<defName>ESC_Turquoise</defName>
+    	<label>Turquoise Skin</label>
+    	<labelShortAdj>turquoise</labelShortAdj>
+    	<description>Carriers of this gene have turquoise skin.</description>
+    	<iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
+    	<randomBrightnessFactor>0.24</randomBrightnessFactor>
+    	<skinColorOverride>(76,125,112,255)</skinColorOverride>
+    	<displayOrderInCategory>180</displayOrderInCategory>
+    	<selectionWeight>0.2</selectionWeight>
+    	<symbolPack>
+    	  	<prefixSymbols>
+    	    	<li><symbol>turquoise</symbol></li>
+    	  	</prefixSymbols>
+    	</symbolPack>
+  	</GeneDef>
+</Defs>
