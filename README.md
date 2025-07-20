@@ -2,8 +2,9 @@ This is a very simple mod for Rimwolrd which adds genes with extra skin colors.
 
 
 
-To Do :
+How to add your own skin colors :
 
-
-
-* Make an original icon and preview because they are currently made with AI
+* Go to Defs/GeneDefs/ and open ExtraSkinColors.xml
+* Copy-paste the <GeneDef> section (select from <GeneDef> to </GeneDef>)
+* Modify <defName>, <label>, <labelShortAdj>, <description>, <skinColorOverride>, and add 10 to <displayOrderInCategory>
+* Save and reload your game, your new skin color should appear in the xenotype editor

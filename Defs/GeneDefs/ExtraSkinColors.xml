@@ -1,19 +1,41 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<GeneDef ParentName="GeneSkinColorOverride">
-    	<defName>ESC_Turquoise</defName>
-    	<label>Turquoise Skin</label>
-    	<labelShortAdj>turquoise</labelShortAdj>
-    	<description>Carriers of this gene have turquoise skin.</description>
-    	<iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
-    	<randomBrightnessFactor>0.24</randomBrightnessFactor>
-    	<skinColorOverride>(76,125,112,255)</skinColorOverride>
-    	<displayOrderInCategory>180</displayOrderInCategory>
-    	<selectionWeight>0.2</selectionWeight>
-    	<symbolPack>
-    	  	<prefixSymbols>
-    	    	<li><symbol>turquoise</symbol></li>
-    	  	</prefixSymbols>
-    	</symbolPack>
+	<GeneDef ParentName="GeneSkinColorOverride">								<!-- The logic to change skin color is inherited here -->
+
+    	<defName>ESC_Turquoise</defName>										<!-- The system name of the gene, must be unique -->
+
+    	<label>Turquoise Skin</label>											<!-- Name of the gene as shown in the xenotype panel -->
+
+    	<labelShortAdj>turquoise</labelShortAdj>								<!-- The adjective form of the gene, used for descriptions of the pawn, like in some quests
+    																				 where only a few information is given about a pawn -->
+
+    	<description>Carriers of this gene have turquoise skin.</description>	<!-- The full description of the gene as shown in the xenotype panel -->
+
+    	<iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>				<!-- General icon, don't touch that, the color of the icon will automatically adapt -->
+
+    	<randomBrightnessFactor>0.24</randomBrightnessFactor>					<!-- Adds variations to the skin color, making it brighter or dimmer so that not all pawns
+    																				 look exactly the same. 0 means same color for everyone, 1 means lots of variations -->
+
+    	<skinColorOverride>(76,125,112,255)</skinColorOverride>					<!-- The actual skin color in RGBA format. I'm not sure what the A does here. Does it make
+    																				 your pawn transparent/invisible ? -->
+
+    	<displayOrderInCategory>200</displayOrderInCategory>					<!-- Display order in the xenotype panel. Usually incremented 10 by 10 or 20 by 20 -->
+
+    	<selectionWeight>0.2</selectionWeight>									<!-- How likely this gene is to appear in the wild (in gene packs, or when NPCs pop on your map for example) -->
+  	</GeneDef>
+
+<!-- Side note : This mod only adds new skin colors. If you want to override existing skin colors from the base game or other mods, you'll have to look into patching with harmony.
+				 Creating a new skin color with the same defName as another one from a mod will either work or return an error (not sure which) but either way it's not good practice. -->
+
+  	<GeneDef ParentName="GeneSkinColorOverride">
+  		<defName>ESC_Muddy</defName>
+  		<label>Wet Brown Skin</label>
+  		<labelShortAdj>muddy</labelShortAdj>
+  		<description>Carriers of this gene have a somewhat dark brown skin, like wet mud.</description>
+  		<iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
+  		<randomBrightnessFactor>0.24</randomBrightnessFactor>
+  		<skinColorOverride>(71,41,1,255)</skinColorOverride>
+  		<displayOrderInCategory>210</displayOrderInCategory>
+  		<selectionWeight>0.2</selectionWeight>
   	</GeneDef>
 </Defs>
