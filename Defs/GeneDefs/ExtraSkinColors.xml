@@ -48,7 +48,7 @@
   		<iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
   		<randomBrightnessFactor>0.24</randomBrightnessFactor>
   		<skinColorOverride>(180,240,255,255)</skinColorOverride>
-  		<displayOrderInCategory>210</displayOrderInCategory>
+  		<displayOrderInCategory>220</displayOrderInCategory>
   		<selectionWeight>0.2</selectionWeight>
   	</GeneDef>
 
@@ -60,7 +60,7 @@
   		<iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
   		<randomBrightnessFactor>0.24</randomBrightnessFactor>
   		<skinColorOverride>(78,112,85,255)</skinColorOverride>
-  		<displayOrderInCategory>210</displayOrderInCategory>
+  		<displayOrderInCategory>230</displayOrderInCategory>
   		<selectionWeight>0.2</selectionWeight>
   	</GeneDef>
 
@@ -72,7 +72,7 @@
   		<iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
   		<randomBrightnessFactor>0.24</randomBrightnessFactor>
   		<skinColorOverride>(15,20,30,255)</skinColorOverride>
-  		<displayOrderInCategory>210</displayOrderInCategory>
+  		<displayOrderInCategory>240</displayOrderInCategory>
   		<selectionWeight>0.2</selectionWeight>
   	</GeneDef>
 
@@ -84,7 +84,7 @@
   		<iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
   		<randomBrightnessFactor>0.24</randomBrightnessFactor>
   		<skinColorOverride>(220,220,220,255)</skinColorOverride>
-  		<displayOrderInCategory>210</displayOrderInCategory>
+  		<displayOrderInCategory>250</displayOrderInCategory>
   		<selectionWeight>0.2</selectionWeight>
   	</GeneDef>
 
@@ -95,8 +95,8 @@
   		<description>This skin shimmers in shades of coral-violet, suggesting some strange affinity with deep-sea reefs and alien ecosystems.</description>
   		<iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
   		<randomBrightnessFactor>0.24</randomBrightnessFactor>
-  		<skinColorOverride>(50,170,150,255)</skinColorOverride>
-  		<displayOrderInCategory>210</displayOrderInCategory>
+  		<skinColorOverride>(123,13,128,255)</skinColorOverride>
+  		<displayOrderInCategory>260</displayOrderInCategory>
   		<selectionWeight>0.2</selectionWeight>
   	</GeneDef>
 
@@ -108,7 +108,7 @@
   		<iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
   		<randomBrightnessFactor>0.24</randomBrightnessFactor>
   		<skinColorOverride>(50,170,150,255)</skinColorOverride>
-  		<displayOrderInCategory>210</displayOrderInCategory>
+  		<displayOrderInCategory>270</displayOrderInCategory>
   		<selectionWeight>0.2</selectionWeight>
   	</GeneDef>
 
@@ -120,7 +120,7 @@
   		<iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
   		<randomBrightnessFactor>0.24</randomBrightnessFactor>
   		<skinColorOverride>(120,55,50,255)</skinColorOverride>
-  		<displayOrderInCategory>210</displayOrderInCategory>
+  		<displayOrderInCategory>280</displayOrderInCategory>
   		<selectionWeight>0.2</selectionWeight>
   	</GeneDef>
 </Defs>
