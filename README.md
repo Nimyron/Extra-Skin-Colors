@@ -1,3 +1,5 @@
+![Extra skin colors preview picture](blob/master/About/Preview.png)
+
 This is a very simple mod for Rimwolrd which adds genes with extra skin colors.
 
 
