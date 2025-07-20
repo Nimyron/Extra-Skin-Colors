@@ -4,7 +4,7 @@
 
     	<defName>ESC_Turquoise</defName>										<!-- The system name of the gene, must be unique -->
 
-    	<label>Turquoise Skin</label>											<!-- Name of the gene as shown in the xenotype panel -->
+    	<label>turquoise skin</label>											<!-- Name of the gene as shown in the xenotype panel -->
 
     	<labelShortAdj>turquoise</labelShortAdj>								<!-- The adjective form of the gene, used for descriptions of the pawn, like in some quests
     																				 where only a few information is given about a pawn -->
@@ -16,8 +16,7 @@
     	<randomBrightnessFactor>0.24</randomBrightnessFactor>					<!-- Adds variations to the skin color, making it brighter or dimmer so that not all pawns
     																				 look exactly the same. 0 means same color for everyone, 1 means lots of variations -->
 
-    	<skinColorOverride>(76,125,112,255)</skinColorOverride>					<!-- The actual skin color in RGBA format. I'm not sure what the A does here. Does it make
-    																				 your pawn transparent/invisible ? -->
+    	<skinColorOverride>(76,125,112,255)</skinColorOverride>					<!-- The actual skin color in RGBA format. The game only renders opaque skins so modify the alpha does nothing. -->
 
     	<displayOrderInCategory>200</displayOrderInCategory>					<!-- Display order in the xenotype panel. Usually incremented 10 by 10 or 20 by 20 -->
 
@@ -29,12 +28,98 @@
 
   	<GeneDef ParentName="GeneSkinColorOverride">
   		<defName>ESC_Muddy</defName>
-  		<label>Wet Brown Skin</label>
+  		<label>wet-brown skin</label>
   		<labelShortAdj>muddy</labelShortAdj>
   		<description>Carriers of this gene have a somewhat dark brown skin, like wet mud.</description>
   		<iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
   		<randomBrightnessFactor>0.24</randomBrightnessFactor>
   		<skinColorOverride>(71,41,1,255)</skinColorOverride>
+  		<displayOrderInCategory>210</displayOrderInCategory>
+  		<selectionWeight>0.2</selectionWeight>
+  	</GeneDef>
+
+<!-- Alright I've spent like 5 hours doing this, I asked chatgpt for the following colors -->
+
+  	<GeneDef ParentName="GeneSkinColorOverride">
+  		<defName>ESC_GhostBlue</defName>
+  		<label>ghost-blue skin</label>
+  		<labelShortAdj>ghost-blue</labelShortAdj>
+  		<description>The carrier's skin is ghost-blue, pale and softly glowing like a specter glimpsed in the ocean depths.</description>
+  		<iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
+  		<randomBrightnessFactor>0.24</randomBrightnessFactor>
+  		<skinColorOverride>(180,240,255,255)</skinColorOverride>
+  		<displayOrderInCategory>210</displayOrderInCategory>
+  		<selectionWeight>0.2</selectionWeight>
+  	</GeneDef>
+
+  	<GeneDef ParentName="GeneSkinColorOverride">
+  		<defName>ESC_SlimeGreen</defName>
+  		<label>slime-green skin</label>
+  		<labelShortAdj>slime-green</labelShortAdj>
+  		<description>The skin has taken on a thick, slime-green hue, like the underbelly of something ancient and submerged for centuries.</description>
+  		<iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
+  		<randomBrightnessFactor>0.24</randomBrightnessFactor>
+  		<skinColorOverride>(78,112,85,255)</skinColorOverride>
+  		<displayOrderInCategory>210</displayOrderInCategory>
+  		<selectionWeight>0.2</selectionWeight>
+  	</GeneDef>
+
+  	<GeneDef ParentName="GeneSkinColorOverride">
+  		<defName>ESC_AbyssBlack</defName>
+  		<label>abyssal-black skin</label>
+  		<labelShortAdj>abyssal-black</labelShortAdj>
+  		<description>The carrier's skin is an unnatural abyssal black, absorbing light like the creatures that lurk where no sun has ever reached.</description>
+  		<iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
+  		<randomBrightnessFactor>0.24</randomBrightnessFactor>
+  		<skinColorOverride>(15,20,30,255)</skinColorOverride>
+  		<displayOrderInCategory>210</displayOrderInCategory>
+  		<selectionWeight>0.2</selectionWeight>
+  	</GeneDef>
+
+  	<GeneDef ParentName="GeneSkinColorOverride">
+  		<defName>ESC_BleachedWhite</defName>
+  		<label>bleached skin</label>
+  		<labelShortAdj>bleached</labelShortAdj>
+  		<description>The skin is a bone-pale white, eerily smooth and drained of life, as if the sea itself had scrubbed all color away.</description>
+  		<iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
+  		<randomBrightnessFactor>0.24</randomBrightnessFactor>
+  		<skinColorOverride>(220,220,220,255)</skinColorOverride>
+  		<displayOrderInCategory>210</displayOrderInCategory>
+  		<selectionWeight>0.2</selectionWeight>
+  	</GeneDef>
+
+  	<GeneDef ParentName="GeneSkinColorOverride">
+  		<defName>ESC_CoralViolet</defName>
+  		<label>coral-violet skin</label>
+  		<labelShortAdj>coral-violet</labelShortAdj>
+  		<description>This skin shimmers in shades of coral-violet, suggesting some strange affinity with deep-sea reefs and alien ecosystems.</description>
+  		<iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
+  		<randomBrightnessFactor>0.24</randomBrightnessFactor>
+  		<skinColorOverride>(50,170,150,255)</skinColorOverride>
+  		<displayOrderInCategory>210</displayOrderInCategory>
+  		<selectionWeight>0.2</selectionWeight>
+  	</GeneDef>
+
+  	<GeneDef ParentName="GeneSkinColorOverride">
+  		<defName>ESC_ScaleTeal</defName>
+  		<label>iridescent teal skin</label>
+  		<labelShortAdj>iridescent</labelShortAdj>
+  		<description>The skin glistens with an iridescent teal sheen, like scales under dim waterlight, ever shifting and unnatural.</description>
+  		<iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
+  		<randomBrightnessFactor>0.24</randomBrightnessFactor>
+  		<skinColorOverride>(50,170,150,255)</skinColorOverride>
+  		<displayOrderInCategory>210</displayOrderInCategory>
+  		<selectionWeight>0.2</selectionWeight>
+  	</GeneDef>
+
+  	<GeneDef ParentName="GeneSkinColorOverride">
+  		<defName>ESC_BloodRust</defName>
+  		<label>blood-rust skin</label>
+  		<labelShortAdj>blood-rust</labelShortAdj>
+  		<description>The skin has turned a disturbing blood-rust color, as if soaked in brine and stained by iron from drowned altars.</description>
+  		<iconPath>UI/Icons/Genes/Gene_SkinColorOverride</iconPath>
+  		<randomBrightnessFactor>0.24</randomBrightnessFactor>
+  		<skinColorOverride>(120,55,50,255)</skinColorOverride>
   		<displayOrderInCategory>210</displayOrderInCategory>
   		<selectionWeight>0.2</selectionWeight>
   	</GeneDef>
